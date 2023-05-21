@@ -1,17 +1,6 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-        {{-- <nav class="navbar ">
-                <div class="container-fluid">
-                    <a class="navbar-brand">Navbar</a>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                        <div class="container"></div>
-                    </form>
-                </div>
-            </nav> --}}
-
         <div class="card">
             <div class="card-header">
                 <div class="container-fluid">
@@ -28,7 +17,7 @@
                 </div>
             </div>
             <div class="card-body">
-
+                @livewire('student-crud')
             </div>
         </div>
     </div>
