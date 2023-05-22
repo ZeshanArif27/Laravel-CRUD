@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="card-body">
-                @livewire('student-crud')
+                {{-- @livewire('student-crud') --}}
             </div>
         </div>
     </div>

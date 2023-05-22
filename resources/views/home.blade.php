@@ -20,10 +20,7 @@
                 </div>
             </div>
             <div class="card-body">
-                {{-- @livewire('student-crud') --}}
-                @livewire('student_create')
-                @livewire('student_update')
-                @livewire('students')
+                @livewire('student-crud')
 
             </div>
         </div>
