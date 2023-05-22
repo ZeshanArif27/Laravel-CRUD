@@ -36,3 +36,10 @@ button.btn.btn-outline-success:hover {
     padding: 0 10px;
     margin: 10px 0;
 }
+input.form-control.me-2 {
+    width: auto;
+    left: 80%;
+    /* margin: 0; */
+    position: relative;
+    margin-bottom: 12px;
+}
